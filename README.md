@@ -6,26 +6,26 @@ It's created Springboot and serves to store University restroom data and user re
 ## Endpoints:
 
 ### api/v1/restroom
-_This is a GET mapping that returns a JSON of all the restroom entities in the PostgreSQL database.
-_
+_This is a GET mapping that returns a JSON of all the restroom entities in the PostgreSQL database._
+
 
 
 ### api/v1/restroom/delete/{name}
 
-_This is a DELETE mapping that removes the restroom entity, with the specified name, from the PostgreSQL database.
-_
+_This is a DELETE mapping that removes the restroom entity, with the specified name, from the PostgreSQL database._
+
 
 
 ### api/v1/restroom/{name}
 
-_This is a PUT mapping that allows the user to edit the location address of the specified restroom entity. It takes a JSON request parameter.
-_
+_This is a PUT mapping that allows the user to edit the location address of the specified restroom entity. It takes a JSON request parameter._
+
 
 
 ### api/v1/restroom/search?name={restroomName}
 
-_This is a GET mapping that returns the address of a specified restroom entity.
-_
+_This is a GET mapping that returns the address of a specified restroom entity._
+
 
 
 ### api/v1/reviews
@@ -37,9 +37,9 @@ As a POST mapping, it adds a new review entity to the database, taking a JSON re
 
 ### api/v1/reviews/{name}
 
-_This is a GET mapping to retrieve all the review entities under a specified restroom name.
-_
+_This is a GET mapping to retrieve all the review entities under a specified restroom name._
+
 ### api/v1/reviews/rating/{name}
 
-_This is a GET mapping to retrieve the average rating of a specified restroom. 
-_
+_This is a GET mapping to retrieve the average rating of a specified restroom._
+
