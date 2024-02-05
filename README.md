@@ -5,7 +5,7 @@ It's created Springboot and serves to store University restroom data and user re
 
 ## Endpoints:
 
-    api/v1/restroom
+-     api/v1/restroom
 
 This is a GET mapping that returns a JSON of all the restroom entities in the PostgreSQL database.
 
